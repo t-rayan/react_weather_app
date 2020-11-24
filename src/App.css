@@ -1,0 +1,44 @@
+.App {
+  margin: auto;
+  padding: 0 2rem;
+}
+
+.App .main {
+  position: relative;
+  background-color: #fff;
+  margin-top: 2rem;
+  background: rgba(45, 37, 58, 0.48);
+  border-radius: 10px;
+  padding: 2rem 5rem;
+  color: #fff;
+}
+ .power_by {
+   margin-top: 2rem;
+  font-size: .8rem;
+  color: #fff;
+  text-align: right;
+}
+@media only screen and (max-width: 768px) {
+ .App .main {
+   padding: 3rem;
+   margin-top: 1rem;
+ }
+}
+@media only screen and (max-width: 600px) {
+  .days_container {
+    justify-content: flex-start;
+    gap: 25px;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .days_container {
+    justify-content: flex-start;
+    gap: 25px;
+  }
+  .App {
+    padding: 1rem;
+  }
+  .App .main {
+    padding: 2rem;
+  }
+}

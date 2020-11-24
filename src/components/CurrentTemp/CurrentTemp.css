@@ -1,0 +1,47 @@
+.info_container {
+  margin-top: 2.8rem;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.location {
+  font-weight: 500;
+  font-size: 1.3rem;
+}
+.current_icon {
+  font-size: 4rem;
+}
+.status {
+  margin-top: .3rem;
+  font-size: 1.2ßrem;
+}
+.feels_like {
+  margin-top: .3rem;
+}
+.summary_container p {
+  font-size: .95rem;
+  margin-bottom: .5rem;
+}
+.main_temp_container .main_temp {
+  font-size: 3rem;
+}
+@media only screen and (max-width: 600px) {
+  .info_container {
+    display: grid;
+    grid-template-columns: auto auto;
+    row-gap: 40px;
+    align-items: baseline;
+    margin-top: 2rem;
+  }
+  
+}
+@media only screen and (max-width: 400px) {
+  .main_temp_container .main_temp {
+    font-size: 2rem;
+  }
+  .summary_container p {
+    font-size: .8rem;
+    margin-bottom: .5rem;
+  }
+}

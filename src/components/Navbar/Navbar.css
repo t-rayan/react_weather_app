@@ -1,0 +1,28 @@
+
+.navbar nav {
+  display: grid;
+  grid-template-columns: auto;
+  justify-content: start;
+  align-items: center;
+  padding-top: 2rem;
+}
+.searchInput {
+  padding: 10px 0;
+  width: 400px;
+  border: none;
+  border-bottom: 1px solid #ccc;
+  background-color: transparent;
+  font-size: 1.3rem;
+  color: #fff;
+}
+@media only screen and (max-width: 768px) {
+  .searchInput {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .navbar nav {
+    
+    padding-top: .5rem;
+  }
+}
