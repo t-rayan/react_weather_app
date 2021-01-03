@@ -15,7 +15,7 @@ const Forecast = ({ forecastData }) => {
               </Moment>
             </p>
             <img
-              src={`http://openweathermap.org/img/wn/${data.weather[0].icon}.png`}
+              src={`https://openweathermap.org/img/wn/${data.weather[0].icon}.png`}
               width="42"
               height="42"
               alt="icon"

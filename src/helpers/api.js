@@ -1,7 +1,7 @@
 import Axios from "axios";
 // api key
 const apiKey = "1dfa346beb332c066d76434ff1ae559f";
-const baseUrl = "http://api.openweathermap.org/data/2.5";
+const baseUrl = "https://api.openweathermap.org/data/2.5";
 
 export const getCurrentData = async (lat, lon) => {
   try {

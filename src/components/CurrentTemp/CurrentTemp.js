@@ -13,7 +13,7 @@ const CurrentTemp = ({ data }) => {
       <div className="info_container">
         <div className="status_icon_container">
           <img
-            src={`http://openweathermap.org/img/wn/${data.icon}@2x.png`}
+            src={`https://openweathermap.org/img/wn/${data.icon}@2x.png`}
             width="80"
             height="80"
             alt="icon"
